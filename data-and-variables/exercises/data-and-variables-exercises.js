@@ -1,4 +1,5 @@
 // Declare and assign the variables below
+console.log("hello world");
 
 // Use console.log to print the 'typeof' each variable. Print one item per line.
 
