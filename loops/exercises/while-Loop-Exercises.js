@@ -49,7 +49,7 @@ console.log("...................................................................
 /*Exercise #5: Output the result with the phrase, “The shuttle gained an altitude of ___ km.”
 
 If the altitude is 2000 km or higher, add “Orbit achieved!” Otherwise add, “Failed to reach orbit.”*/
- 
+console.log(`\n The  shuttle gained an altitude of ${altitude} km`);
 if(altitude >=2000){
   console.log( `"Orbit achieved!"`);
 
