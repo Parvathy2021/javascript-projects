@@ -1,5 +1,7 @@
 //TODO: Export ONLY the printAll function.
 
+
+
 function printAll(names, tests, scores){
   let header = 'Name';
   let row = '';
@@ -27,6 +29,7 @@ function printStudentScores(index,students,tests,scores){
   return;
 }
 
+
 function printTestScores(index,test,students,scores){
   console.log(`Class results for ${test} test:`);
   for (let i = 0; i<students.length; i++){
@@ -34,3 +37,4 @@ function printTestScores(index,test,students,scores){
   }
   return;
 }
+module.exports = printAll;
